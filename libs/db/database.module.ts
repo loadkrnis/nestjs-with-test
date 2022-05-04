@@ -9,5 +9,5 @@ export const DatabaseModule = TypeOrmModule.forRoot({
   database: 'test',
   synchronize: true,
   autoLoadEntities: true,
-  entities: ['libs/entity/src/**/*.entity.ts'],
+  entities: ['../entity/src/**/*.entity.{ts,js}'],
 });
