@@ -61,7 +61,7 @@
       "ts"
     ],
     "rootDir": ".",
-    "testRegex": ".*\\.spec\\.ts$",
+    "testRegex": ".*.spec.ts$",
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
     },
@@ -71,6 +71,7 @@
     "coverageDirectory": "./coverage",
     "testEnvironment": "node",
     "roots": [
+      "<rootDir>/test/",
       "<rootDir>/src/",
       "<rootDir>/libs/"
     ],
